@@ -1,0 +1,251 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: "Fugaz One-Regular", sans-serif;
+
+  background: #d4c3a7;
+  color: #fff;
+  
+
+}
+
+/* WRAPPER */
+.page-wrapper {
+  max-width: 192rem;
+  margin: 0 auto;
+  padding: 0rem;
+}
+
+/* HERO */
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+/* LOGO */
+.logo {
+  text-align: center;
+  margin: 6rem 3;
+}
+
+.logo img {
+  max-width: 18rem;
+}
+
+/* NAV */
+.main-nav {
+  display: flex;
+  justify-content: center;
+  /*flex-direction: line;*/
+  margin: 6rem 3rem;  
+  /*justify-content: center;*/
+  gap: 3rem;
+}
+
+.main-nav button {
+  padding: 2.25rem 2.25rem;
+  font-size: 1.8rem;
+  background: white;
+  color: black;
+  border: 0rem solid white;
+  border-radius: 25px; /* All corners rounded with 10px radius */
+  padding: 20px;  
+  cursor: pointer;
+}
+
+.main-nav button:hover {
+  background: black;
+  color: white;
+}
+
+/* CONTENT */
+.content {
+  display: grid;
+  gap: 1rem;
+}
+
+.content video {
+  display: grid;
+  gap: 1rem;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+}
+
+/* FOOTER */
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 6rem 0;
+}
+
+.socials button {
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+  background: white;
+  color: black;
+  border: 0rem solid white;
+  border-radius: 25px; /* All corners rounded with 10px radius */
+  padding: 20px;  
+  cursor: pointer;
+}
+
+.socials button:hover {
+  text-decoration: underline;
+  background: black;
+  color: white;
+}
+
+
+
+.copyr {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 3rem 0;
+}
+
+.copyr a {
+  font-size: 9rem;
+  color: rgb(153, 102, 102);
+  text-decoration: none;
+}
+
+.num {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 3rem 0;
+
+  font-size: 3rem;
+  color: rgb(153, 102, 102);
+  text-decoration: none;
+}
+
+/* TABLET */
+@media (max-width: 70rem) {
+  .main-nav {
+    flex-direction: column;
+    margin: 6rem 3rem;
+  }
+
+    .socials {
+    flex-direction: column;
+    margin: 6rem 3rem;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 48rem) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .logo img {
+    max-width: 18rem;
+  }
+}
+
+html {
+  font-size: 62.5%; /* 10px base */
+}
+
+
+.scroll-container {
+  display: flex;               /* Align items in a row */
+  overflow-x: auto;            /* Enable horizontal scrolling */
+  white-space: nowrap;         /* Prevent items from wrapping */
+  gap: 15px;                   /* Space between images */
+  padding: 10px;
+
+  border-radius: 8px;
+}
+
+/* Optional: Style the images for consistency */
+.scroll-container img {
+  height: 200px;               /* Fix the height */
+  width: auto;                 /* Maintain aspect ratio */
+  display: block;
+  border-radius: 4px;
+  transition: transform 0.2s;
+}
+
+/* Optional: Add a hover effect */
+.scroll-container img:hover {
+  transform: scale(1.05);
+}
+
+
+.scroll-container2 {
+  display: flex;               /* Align items in a row */
+  overflow-x: auto;            /* Enable horizontal scrolling */
+  white-space: nowrap;         /* Prevent items from wrapping */
+  gap: 70px;                   /* Space between images */
+  padding: 30px;
+  background-color: #fff0b2;
+  border-radius: 0px;
+}
+
+/* Optional: Style the images for consistency */
+.scroll-container2 img {
+  height: 200px;               /* Fix the height */
+  width: auto;                 /* Maintain aspect ratio */
+  display: block;
+  transition: transform 0.2s;
+}
+
+/* Optional: Add a hover effect */
+.scroll-container2 img:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
